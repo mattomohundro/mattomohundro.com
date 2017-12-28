@@ -229,6 +229,12 @@ header p {
     margin: 0 8vw 0 10vw;
     justify-content: space-between; 
 }
+
+.wrap--honorable-mention {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0 4vw;
+}
   
 .wrap--number {
     display: flex;
@@ -428,6 +434,7 @@ em {
         margin-top: 5vw; 
     }
 
+
     .list--album-title {
         margin: 5vw 0; 
     }
@@ -446,9 +453,13 @@ em {
         line-height: 1; 
     }
 
+    .header--number-overlay {
+        display: none;
+    }
+
     .count--small {
         display: block;
-        font-size: 1.0625rem;
+        font-size: 1.25rem;
         margin-bottom: 0; 
     }
 
@@ -463,6 +474,10 @@ em {
 
     .wrap--albums-hr .row {
         margin: 0 5vw; 
+    }
+
+    .wrap--honorable-mention {
+        display: block;
     }
 
     .wrap--albums-hr .columns, .wrap--albums-hr .columns {
