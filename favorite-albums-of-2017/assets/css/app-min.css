@@ -111,7 +111,7 @@ strong {
     line-height: inherit; 
 }
   
-h1, h2, h4 {
+h1, h2, h3, h4 {
     font-family: "FF Real Bold", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -299,7 +299,7 @@ strong {
     margin-bottom: 0; 
 }
   
-.count--small {
+.count--small, .count--mobile {
     display: none; 
 }
   
@@ -388,60 +388,54 @@ em {
     }
 
     .list__subheader:after {
-        margin: .5em 0; 
+        margin: 1em 0; 
     } 
 }
   
 @media only screen and (max-width: 667px) {
     
-    .list--album-title {
-        margin: 2rem 0; 
-    }
-
-    .list__header {
-        font-size: 1.25rem; 
-    }
-
-    .list__subheader {
-        font-size: 1rem; 
-    }
-    
-    .list__subheader:after {
-        margin: .85rem 0; 
-    }
-
-    .list__item, p {
-        font-size: 0.875rem; 
-    } 
-}
-  
-@media only screen and (max-width: 568px) {
-    
     header {
-        padding: 1.75rem 0 2rem 0; 
+        padding: 1.75rem 10vw 2rem 10vw; 
     }
 
-    .wrap--number, .wrap--album-info, .wrap--row {
+    header h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+
+    header p {
+        font-size: 1.25rem;
+        line-height: 1.4;
+
+    }
+
+    .wrap--number, .wrap--row {
         display: block; 
     }
 
+    .wrap--album-info {
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .wrap--row {
-        width: 90vw;
-        margin: 0 5vw; 
+        width: 80vw;
+        margin: 0 10vw; 
     }
 
     .wrap--number {
-        margin-top: 5vw; 
+        margin-top: 2.25rem; 
     }
 
-
     .list--album-title {
-        margin: 5vw 0; 
+        margin: 1.75rem 0; 
     }
 
     .header--number {
-        height: auto;
-        min-height: 90vw;
+        height: 80vw;
+        width: 80vw;
+        min-height: 80vw;
         font-size: 90vw;
         line-height: .75;
         text-shadow: 0 0 0 transparent;
@@ -461,6 +455,14 @@ em {
         display: block;
         font-size: 1.25rem;
         margin-bottom: 0; 
+    }
+
+    .count--mobile {
+        display: block;
+        color: #999;
+        font-size: 3rem;
+        line-height: 1;
+        margin: 1.5rem 1.75rem 0 0;
     }
 
     .wrap--albums-hr {
