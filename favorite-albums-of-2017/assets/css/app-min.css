@@ -415,6 +415,10 @@ em {
         display: block;
     }
 
+    .wrap--album {
+        border-top: 2px solid #444;
+    }
+
     .wrap--number, .wrap--row {
         display: block; 
     }
@@ -443,7 +447,7 @@ em {
         min-height: 80vw;
         font-size: 90vw;
         line-height: .75;
-        border: 3px solid #fff;
+        border: 1px solid #fff;
         text-shadow: 0 0 0 transparent;
         -webkit-background-clip: initial; 
     }
