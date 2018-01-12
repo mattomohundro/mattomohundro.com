@@ -150,7 +150,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #d9d9d9; 
+    color: #a7e3f1;
 }
   
 ul, dl {
@@ -380,11 +380,13 @@ em {
 @media only screen and (max-width: 770px) {
     
     .list__header {
-        font-size: 1.5625rem; 
+        font-size: 1.5625rem;
+        margin-bottom: .25rem; 
     }
 
     .list__subheader {
-        font-size: 1.25rem; 
+        font-size: 1.25rem;
+        line-height: 1.2; 
     }
 
     .list__subheader:after {
@@ -395,7 +397,7 @@ em {
 @media only screen and (max-width: 667px) {
     
     header {
-        padding: 1.75rem 10vw 2rem 10vw; 
+        padding: 1.75rem 8vw 2rem 8vw; 
     }
 
     header h1 {
@@ -407,7 +409,10 @@ em {
     header p {
         font-size: 1.25rem;
         line-height: 1.4;
+    }
 
+    header a {
+        display: block;
     }
 
     .wrap--number, .wrap--row {
@@ -438,6 +443,7 @@ em {
         min-height: 80vw;
         font-size: 90vw;
         line-height: .75;
+        border: 3px solid #fff;
         text-shadow: 0 0 0 transparent;
         -webkit-background-clip: initial; 
     }
@@ -460,9 +466,9 @@ em {
     .count--mobile {
         display: block;
         color: #999;
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 1;
-        margin: 1.5rem 1.75rem 0 0;
+        margin: 1.65rem 1.5rem 0 0;
     }
 
     .wrap--albums-hr {
