@@ -34,7 +34,7 @@ body {
 /* line 12, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.9/scss/foundation/components/_global.scss */
 body {
   background: #231f20;
-  color: #77787b;
+  color: #aaa;
   padding: 0;
   margin: 0;
   font-family: "PT Serif W01 Book", Georgia, serif;
@@ -2258,7 +2258,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-top: .35em;
   text-shadow: rgba(0, 0, 0, 0.9) 0 1px 1px;
-  color: #77787b;
+  color: #999;
 }
 
 /* line 4, ../sass/_general.scss */
@@ -2313,11 +2313,13 @@ header h1 {
 /* line 21, ../sass/_general.scss */
 .main .personal-info a {
   font-weight: normal;
+  border-bottom: 1px dotted #666;
   -webkit-font-smoothing: antialiased;
 }
 /* line 22, ../sass/_general.scss */
 .main .personal-info a:hover {
-  text-decoration: underline;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
 }
 /* line 24, ../sass/_general.scss */
 .main .text-link {
