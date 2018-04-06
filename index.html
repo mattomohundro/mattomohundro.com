@@ -30,7 +30,7 @@
 	<div class="main row">
 		<div class="large-7 columns">
 			<h3>Recent Dribbble Shots</h3>
-			<ul class="dribbble-list large-block-grid-2 small-block-grid-2">
+			<ul id="shots" class="dribbble-list large-block-grid-2 small-block-grid-2">
             </ul>
             <p class="margin-bottom-0"><a class="text-link" href="http://www.dribbble.com/matt_o">Check out all of my shots</a> &raquo;</p>
 		</div>
@@ -78,21 +78,6 @@
         </div>
     </footer>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/jribbble/dist/jribbble.min.js"></script>
-    <script>
-        $.jribbble.setToken('6fc9d16ef6a821919ae0a87a70bca1776c4f881d5a749874a99d5d5533b61453');
-        $.jribbble.users('matt_o').shots({per_page: 8}).then(function(shots) {
-          var html = [];
-
-          shots.forEach(function(shot) {
-            html.push('<li>');
-            html.push('<a href="' + shot.html_url + '" target="_blank">');
-            html.push('<img src="' + shot.images.normal + '">');
-            html.push('</a></li>');
-          });
-
-          $('.dribbble-list').html(html.join(''));
-        });
-    </script>
+    <script src="javascript/dribbble-v2.js"></script>
 </body>
 </html>
