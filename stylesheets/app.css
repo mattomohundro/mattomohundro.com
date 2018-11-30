@@ -2254,7 +2254,7 @@ h1, h2, h3, h4, h5, h6 {
 .subhead {
   font-family: "PT Serif W01 Book", Georgia, serif;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1;
   margin-top: .35em;
   text-shadow: rgba(0, 0, 0, 0.9) 0 1px 1px;
@@ -2275,6 +2275,8 @@ ul li {
 /* line 7, ../sass/_general.scss */
 li, p {
   -webkit-font-smoothing: antialiased;
+  font-size: 1.1em;
+  text-shadow: rgba(0,0,0,.9) 0 2px 0px;
 }
 /* line 8, ../sass/_general.scss */
 li strong, p strong {
@@ -2305,10 +2307,13 @@ header h1 {
   border-bottom: 1px solid #333;
   padding-bottom: .3em;
   margin-bottom: 1em;
+  font-size: 1.75rem;
+  text-shadow: rgba(0,0,0,.9) 0 2px 0px;
 }
 /* line 20, ../sass/_general.scss */
 .main .personal-info h3 {
   margin-bottom: .75em;
+  
 }
 /* line 21, ../sass/_general.scss */
 .main .personal-info a {
