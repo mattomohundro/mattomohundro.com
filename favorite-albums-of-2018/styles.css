@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Source-Sans';
+    src: url('SourceSansVariable-Roman.ttf') format('truetype');
+    font-weight: 1 999;
+}
+
+body {
+    margin: 5rem 0;
+    font-family: 'Source-Sans', sans-serif;
+    font-weight: 400;
+}
+
+.content {
+    display: grid;
+    margin: 0 10vw;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 25vw 25vw 25vw 25vw;
+    grid-gap: 2.5vw;
+}
+
+.content__item {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #999;
+    background: #ddd;
+}
+
+.content__item--sp2 {
+    grid-column: span 2;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}

@@ -2246,7 +2246,7 @@ blockquote p {
 }
 
 /* line 2, ../sass/_general.scss */
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -2274,7 +2274,6 @@ ul li {
 
 /* line 7, ../sass/_general.scss */
 li, p {
-  -webkit-font-smoothing: antialiased;
   font-size: 1.1em;
   text-shadow: rgba(0,0,0,.9) 0 2px 0px;
 }
@@ -2319,7 +2318,6 @@ header h1 {
 .main .personal-info a {
   font-weight: normal;
   border-bottom: 1px dotted #666;
-  -webkit-font-smoothing: antialiased;
 }
 /* line 22, ../sass/_general.scss */
 .main .personal-info a:hover {
@@ -2329,7 +2327,6 @@ header h1 {
 /* line 24, ../sass/_general.scss */
 .main .text-link {
   font-weight: normal;
-  -webkit-font-smoothing: antialiased;
 }
 /* line 25, ../sass/_general.scss */
 .main .text-link:hover {
