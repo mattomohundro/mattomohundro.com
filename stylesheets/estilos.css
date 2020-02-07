@@ -421,7 +421,9 @@ footer.row p {
   }
 
   .main h3 {
-    font-size: 1.75em;
+    font-size: 1.5em;
+    line-height: 1.25;
+    letter-spacing: -.3px;
   }
 }
 
